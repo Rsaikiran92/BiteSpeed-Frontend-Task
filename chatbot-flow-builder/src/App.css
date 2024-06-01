@@ -1,0 +1,42 @@
+/* src/App.css */
+.flow-builder {
+  display: flex;
+  height: 100vh;
+ 
+}
+
+.react-flow-wrapper {
+  flex-grow: 1;
+}
+
+aside {
+  width: 200px;
+  padding: 10px;
+  background: #f7f7f7;
+  border-right: 1px solid #ddd;
+}
+
+.dndnode {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+.text-node {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.settings-panel {
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+}
